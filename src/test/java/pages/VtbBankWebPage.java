@@ -19,7 +19,8 @@ public class VtbBankWebPage {
                     phoneNumberField=$("[data-test-id=submit-phone-number-button]"),
                     enterByQrField=$("[data-test-id=auth-by-qr-button]"),
                     qrCode=$("[alt=QR-код]"),
-                    checkResult=$(".typographystyles__Box-foundation-kit__sc-14qzghz-0.jXDzyw");
+                    checkResult=$(".typographystyles__Box-foundation-kit__sc-14qzghz-0.jXDzyw"),
+                    removeCookiesBox=$("#cookie-buttons");
 
     ElementsCollection debitCardsButton=$$("[href='/personal/karty/debetovye/']"),
             creditCardsButton=$$("[href='/personal/karty/kreditnye/']"),
@@ -117,7 +118,7 @@ public class VtbBankWebPage {
 
 
     public VtbBankWebPage removeCookiesBox() {
-        executeJavaScript("$('#cookies-box').remove()");
+        removeCookiesBox.click();
         return this;
 
     }

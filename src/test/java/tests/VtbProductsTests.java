@@ -36,14 +36,15 @@ public class VtbProductsTests  extends TestBase {
     void checkingCreditCardsButton() {
         step("Открываем главную страницу сайта ВТБ Банка: " + baseUrl, () -> {
             vtbBankWebPage
-                    .openMainPage();
+                    .openMainPage()
+                    .removeCookiesBox();
 
         });
 
         step("Проверяем работу кнопки Кредитные карты", () -> {
             vtbBankWebPage
+
                     .clickCreditCardsButton("Кредитные карты")
-                    .removeCookiesBox()
                     .checkResult("Получить кредитную карту просто ");
 
         });

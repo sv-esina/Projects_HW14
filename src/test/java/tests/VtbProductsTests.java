@@ -18,7 +18,8 @@ public class VtbProductsTests  extends TestBase {
     void checkingDebitCardsButton() {
         step("Открываем главную страницу сайта ВТБ Банка: " + baseUrl, () -> {
             vtbBankWebPage
-                    .openMainPage();
+                    .openMainPage()
+                    .scroll();
 
         });
 
@@ -37,7 +38,7 @@ public class VtbProductsTests  extends TestBase {
         step("Открываем главную страницу сайта ВТБ Банка: " + baseUrl, () -> {
             vtbBankWebPage
                     .openMainPage()
-                    .removeCookiesBox();
+                    .scroll();
 
         });
 
@@ -56,7 +57,8 @@ public class VtbProductsTests  extends TestBase {
     void checkingSavingsButton() {
         step("Открываем главную страницу сайта ВТБ Банка: " + baseUrl, () -> {
             vtbBankWebPage
-                    .openMainPage();
+                    .openMainPage()
+                    .scroll();
 
         });
 

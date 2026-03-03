@@ -115,4 +115,11 @@ public class VtbBankWebPage {
         return this;
     }
 
+
+    public VtbBankWebPage removeCookiesBox() {
+        executeJavaScript("$('#cookies-box').remove()");
+        return this;
+
+    }
+
 }

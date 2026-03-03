@@ -43,6 +43,7 @@ public class VtbProductsTests  extends TestBase {
         step("Проверяем работу кнопки Кредитные карты", () -> {
             vtbBankWebPage
                     .clickCreditCardsButton("Кредитные карты")
+                    .removeCookiesBox()
                     .checkResult("Получить кредитную карту просто ");
 
         });

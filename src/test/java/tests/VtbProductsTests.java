@@ -25,6 +25,7 @@ public class VtbProductsTests  extends TestBase {
 
         step("Проверяем работу кнопки Дебетовые карты", () -> {
             vtbBankWebPage
+                    .removeCookiesBox()
                     .clickDebitCardsButton("Дебетовые карты")
                     .checkResult("Дебетовые карты");
 
@@ -44,7 +45,7 @@ public class VtbProductsTests  extends TestBase {
 
         step("Проверяем работу кнопки Кредитные карты", () -> {
             vtbBankWebPage
-
+                    .removeCookiesBox()
                     .clickCreditCardsButton("Кредитные карты")
                     .checkResult("Получить кредитную карту просто ");
 
@@ -64,6 +65,7 @@ public class VtbProductsTests  extends TestBase {
 
         step("Проверяем работу кнопки Сбережения", () -> {
             vtbBankWebPage
+                    .removeCookiesBox()
                     .clickSavingsButton("Сбережения")
                     .checkResult("Подберите вклад или накопительный счет");
 

@@ -123,4 +123,10 @@ public class VtbBankWebPage {
         return this;
     }
 
+    public VtbBankWebPage removeCookiesBox() {
+        $("#cookie-buttons").click();
+
+        return this;
+    }
+
 }

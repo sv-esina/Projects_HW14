@@ -118,13 +118,14 @@ public class VtbBankWebPage {
         return this;
     }
 
-
+    @Step("Скролл страницы до блока Частным лицам")
     public VtbBankWebPage scroll() {
         scroll.scrollTo();
 
         return this;
     }
 
+    @Step("Убираем всплывающее сообщение cookie")
     public VtbBankWebPage removeCookiesBox() {
         if (cookiesBox.is(visible)){
             closeCookiesBox.click();}

@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class VtbBankWebPage {
-    public static String baseUrl = "https://www.tbank.ru/";
+    public static String baseUrl = "https://www.vtb.ru/";
     public static String onlineBankUrl = "https://online.vtb.ru/";
 
     private final SelenideElement

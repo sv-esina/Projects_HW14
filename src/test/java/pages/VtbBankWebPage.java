@@ -130,7 +130,8 @@ public class VtbBankWebPage {
     public VtbBankWebPage removeCookiesBox() {
 
         while (cookiesBox.is(visible)) {
-            closeCookiesBox.click();
+            if (cookiesBox.is(visible)){
+                closeCookiesBox.click();}
         }
         return this;
     }

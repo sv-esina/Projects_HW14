@@ -67,7 +67,7 @@ public class VtbProductsTests  extends TestBase {
             vtbBankWebPage
                     .removeCookiesBox()
                     .clickSavingsButton("Сбережения")
-                    .checkResult("Подберите вклад или накопительный счет");
+                    .checkResult("Закажите карту Мир для открытия ");
 
         });
     }

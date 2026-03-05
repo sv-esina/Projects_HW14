@@ -8,10 +8,9 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.WebDriverConditions.title;
 
 public class VtbBankWebPage {
-    public static String baseUrl = "https://www.vtb.ru/";
+    public static String baseUrl = "https://www.tbank.ru/";
     public static String onlineBankUrl = "https://online.vtb.ru/";
 
     private final SelenideElement
@@ -24,6 +23,7 @@ public class VtbBankWebPage {
                     cookiesBox = $("#cookies-box"),
                     closeCookiesBox = $("#cookie-buttons");
 
+
                 ElementsCollection
                     debitCardsButton=$$("[href='/personal/karty/debetovye/']"),
                     creditCardsButton=$$("[href='/personal/karty/kreditnye/']"),
@@ -32,7 +32,6 @@ public class VtbBankWebPage {
     @Step("Открываем главную страницу сайта ВТБ Банк")
     public VtbBankWebPage openMainPage() {
         open(baseUrl);
-        webdriver().shouldHave(title("Банк ВТБ (ПАО) ⚡— дебетовые и кредитные карты, ипотека, кредиты, вклады для физических и юридических лиц по всей России"));
         return this;
     }
 
@@ -128,10 +127,11 @@ public class VtbBankWebPage {
 
     @Step("Убираем всплывающее сообщение cookie")
     public VtbBankWebPage removeCookiesBox() {
+//        if (cookiesBox.is(visible)){
+//            closeCookiesBox.click();}
 
         while (cookiesBox.is(visible)) {
-            if (cookiesBox.is(visible)){
-                closeCookiesBox.click();}
+            closeCookiesBox.click();
         }
         return this;
     }

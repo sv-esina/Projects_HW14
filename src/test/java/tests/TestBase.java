@@ -28,7 +28,7 @@ public class TestBase {
 
         Configuration.browser = browser;
         Configuration.browserVersion = browserVersion;
-        Configuration.baseUrl = "https://www.vtb.ru/";
+        Configuration.baseUrl = "https://www.tbank.ru/";
         Configuration.browserSize = browserSize;
         Configuration.pageLoadStrategy = "eager";
 

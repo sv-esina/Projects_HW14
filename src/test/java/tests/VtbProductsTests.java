@@ -8,8 +8,8 @@ import pages.VtbBankWebPage;
 import static io.qameta.allure.Allure.step;
 import static pages.VtbBankWebPage.baseUrl;
 
-@DisplayName("Проверяем работу кнопок на главной странице ВТБ Банка")
-public class VtbProductsTests  extends TestBase {
+@DisplayName("Проверяем работу кнопок продуктов на главной странице Т-Банка")
+public class VtbProductsTests extends TestBase {
     VtbBankWebPage vtbBankWebPage = new VtbBankWebPage();
 
     @Test

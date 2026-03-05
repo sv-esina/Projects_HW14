@@ -24,9 +24,10 @@ public class VtbBankWebPage {
                     cookiesBox = $("#cookies-box"),
                     closeCookiesBox = $("#cookie-buttons");
 
-    ElementsCollection debitCardsButton=$$("[href='/personal/karty/debetovye/']"),
-            creditCardsButton=$$("[href='/personal/karty/kreditnye/']"),
-            savingsButton=$$("[href='/personal/vklady-i-scheta/']");
+                ElementsCollection
+                    debitCardsButton=$$("[href='/personal/karty/debetovye/']"),
+                    creditCardsButton=$$("[href='/personal/karty/kreditnye/']"),
+                    savingsButton=$$("[href='/personal/vklady-i-scheta/']");
 
     @Step("Открываем главную страницу сайта ВТБ Банк")
     public VtbBankWebPage openMainPage() {

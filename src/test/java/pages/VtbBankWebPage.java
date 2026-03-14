@@ -127,8 +127,6 @@ public class VtbBankWebPage {
 
     @Step("Убираем всплывающее сообщение cookie")
     public VtbBankWebPage removeCookiesBox() {
-//        if (cookiesBox.is(visible)){
-//            closeCookiesBox.click();}
 
         while (cookiesBox.is(visible)) {
             closeCookiesBox.click();

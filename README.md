@@ -3,12 +3,15 @@
 ## :clipboard: Содержание:
 
 - [Технологии и инструменты](#computer-технологии-и-инструменты)
-- [Сборка в Jenkins](#сборка-в-jenkins)
-- [Allure-отчет](#allure-отчет)
+- [Сборка в Jenkins](#img-srcmediaiconsjenkinssvg-titlejenkins-width3-сборка-в-jenkins)
+- [Allure-отчет](#img-srcmediaiconsallure_reportsvg-titleallure_report-width3-allure-отчет-)
+  - [Overview](#overview)
+  - [Детализаци отчета](#детализация-отчета)
 - [Видео выполнения автотеста](#movie_camera-видео-выполнения-автотеста)
-- [Интеграция с Allure TestOps](#интеграция-с-Allure-TestOps)
-- [Интеграция с Jira](#интеграция-с-jira)
-- [Уведомление в Telegram](#уведомление-в-telegram)
+- [Интеграция с Allure TestOps](#img-srcmediaiconsjirasvg-titlejira-width3-интеграция-с-allure-testops)
+  - [Дашборд](#дашборд)
+- [Интеграция с Jira](#img-srcmediaiconsjirasvg-idjira-width3-интеграция-с-jira)
+- [Уведомление в Telegram](#img-srcmediaiconstelegramsvg-titlejira-width3-уведомление-в-telegram)
 
 
 ## :computer: Технологии и инструменты:
@@ -40,24 +43,30 @@
 ![Jenkins_build.png](media/screenshots/Jenkins_build.png)
 
 ## <img src="media/icons/Allure_Report.svg" title="Allure_Report" width="3%"/> Allure-отчет:  
-### Allure Report-Overwiew
+### Overview
+
 ![Allure_report.png](media/screenshots/Allure_report.png)
 
-### Allure Report - Детализация отчета
+### Детализация отчета
+
 ![Allure_report_steps.png](media/screenshots/Allure_report_steps.png)
 
 ## :movie_camera: Видео выполнения автотеста:
+
 <video src="media/Video.mp4" controls="controls" autoplay="autoplay" width="600" height="400">
 </video>
 
 ## <img src="media/icons/Jira.svg" title="Jira" width="3%"/> Интеграция с Allure TestOps:
 ### Дашборд
+
 ![TestOpsDashboard.png](media/screenshots/TestOpsDashboard.png)
 
 ### Тест-кейсы
+
 ![TestOps.png](media/screenshots/TestOps.png)
 
-## <img src="media/icons/Jira.svg" title="Jira" width="3%"/> Интеграция с Jira:
+## <img src="media/icons/Jira.svg" id="Jira" width="3%"/> Интеграция с Jira:
+
 ![Jira.png](media/screenshots/Jira.png)
 
 ## <img src="media/icons/Telegram.svg" title="Jira" width="3%"/> Уведомление в Telegram:

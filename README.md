@@ -53,7 +53,7 @@
 </p>
 
 ## :movie_camera: Видео выполнения автотеста:
-
+https://github.com/sv-esina/Projects_HW14/blob/main/media/Video.mp4
 
 
 ## <img src="media/icons/AllureTestOps.svg" title="Allure TestOps" width="3%"/> Интеграция с Allure TestOps:

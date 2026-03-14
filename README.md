@@ -2,14 +2,14 @@
 
 ## :clipboard: Содержание:
 
-- [Технологии и инструменты](#laptop-технологии-и-инструменты)
-- [Запуск автотестов](#arrow_forward-прогон-автотестов)
-- [Сборка в Jenkins](#-сборка-в-jenkins)
-- [Пример Allure-отчета](#-пример-allure-отчета)
-- [Интеграция с Allure TestOps](#-интеграция-с-allure-testOps)
-- [Интеграция с Jira](#-интеграция-с-jira)
-- [Уведомления в Telegram](#-уведомления-в-telegram)
-- [Видео примера запуска тестов в Selenoid](#-видео-примера-запуска-теста-в-selenoid)
+- [Технологии и инструменты](#computer-технологии-и-инструменты)
+- [Сборка в Jenkins](#сборка-в-jenkins)
+- [Allure-отчет](#allure-отчет)
+- [Видео выполнения автотеста](#movie_camera-видео-выполнения-автотеста)
+- [Интеграция с Allure TestOps](#интеграция-с-Allure-TestOps)
+- [Интеграция с Jira](#интеграция-с-jira)
+- [Уведомление в Telegram](#уведомление-в-telegram)
+
 
 ## :computer: Технологии и инструменты:
 
@@ -37,32 +37,27 @@
 - В проекте так же задействована интеграция с [Allure TestOps](https://allure.autotests.cloud/project/5150/test-cases/43456?treeId=0) и [Jira](https://jira.autotests.cloud/browse/HOMEWORK-1589).
 
 ## <img src="media/icons/Jenkins.svg" title="Jenkins" width="3%"/> Сборка в Jenkins:
-<p align="center">
-<img title="Jenkins Build" src="media/screenshots/Jenkins_build.png">
-</p>
+![Jenkins_build.png](media/screenshots/Jenkins_build.png)
 
 ## <img src="media/icons/Allure_Report.svg" title="Allure_Report" width="3%"/> Allure-отчет:  
-### Allure Report - Overwiew
-<p align="center">
-<img title="Overwiew" src="media/screenshots/Allure_report.png">
-</p>
+### Allure Report-Overwiew
+![Allure_report.png](media/screenshots/Allure_report.png)
 
 ### Allure Report - Детализация отчета
-<p align="center">
-<img title="Suites" src="media/screenshots/Allure_report_steps.png">
-</p>
+![Allure_report_steps.png](media/screenshots/Allure_report_steps.png)
 
 ## :movie_camera: Видео выполнения автотеста:
-https://github.com/sv-esina/Projects_HW14/blob/main/media/Video.mp4
+<video src="media/Video.mp4" controls="controls" autoplay="autoplay" width="600" height="400">
+</video>
 
+## <img src="media/icons/Jira.svg" title="Jira" width="3%"/> Интеграция с Allure TestOps:
+### Дашборд
+![TestOpsDashboard.png](media/screenshots/TestOpsDashboard.png)
 
-## <img src="media/icons/AllureTestOps.svg" title="Allure TestOps" width="3%"/> Интеграция с Allure TestOps:
-<p align="center">
-<img title="TestOps" src="media/screenshots/TestOps.png">
-</p>
+### Тест-кейсы
+![TestOps.png](media/screenshots/TestOps.png)
 
-## <img src="media/icons/Jira.svg" title="Jira" width="3%"/> ВИнтеграция с Jira:
-<p align="center">
-<img title="Jira" src="media/screenshots/Jira.png">
-</p>
+## <img src="media/icons/Jira.svg" title="Jira" width="3%"/> Интеграция с Jira:
+![Jira.png](media/screenshots/Jira.png)
 
+## <img src="media/icons/Telegram.svg" title="Jira" width="3%"/> Уведомление в Telegram:

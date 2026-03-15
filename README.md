@@ -60,8 +60,7 @@
 
 ## **Видео выполнения автотеста:**
 
-<video src="media/Video.mp4" controls="controls" width="100%">
-</video>
+https://github.com/user-attachments/assets/cc4d25b8-a932-41a3-aa17-5328233a6082
 
 ---
 

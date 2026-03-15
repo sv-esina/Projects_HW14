@@ -83,4 +83,4 @@ https://github.com/user-attachments/assets/cc4d25b8-a932-41a3-aa17-5328233a6082
 
 ## **Уведомление в Telegram:**
 
-![TelegramBot.png](media/screenshots/TelegramBot.png)
+<img width="50%" title="TelegramBot" src="media/screenshots/TelegramBot.png">

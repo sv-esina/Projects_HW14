@@ -22,14 +22,11 @@ public class TestBase {
 
     @BeforeAll
     static void applyingBrowserConfigurations() {
-        String browser = System.getProperty("browser", "chrome");
-        String browserVersion = System.getProperty("browserVersion", "127.0");
-        String browserSize = System.getProperty("browserSize", "1920x1080");
 
-        Configuration.browser = browser;
-        Configuration.browserVersion = browserVersion;
+        Configuration.browser = System.getProperty("browser", "chrome");
+        Configuration.browserVersion = System.getProperty("browserVersion", "127.0");
         Configuration.baseUrl = "https://www.vtb.ru/";
-        Configuration.browserSize = browserSize;
+        Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.pageLoadStrategy = "eager";
 
         DesiredCapabilities capabilities = new DesiredCapabilities();

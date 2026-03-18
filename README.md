@@ -1,5 +1,6 @@
 # Проект по автоматизации тестовых сценариев для ["ВТБ"](https://www.vtb.ru/)
 
+---
 ## :clipboard: Содержание:
 
 - [Технологии и инструменты](#технологии-и-инструменты)
@@ -14,6 +15,7 @@
 - [Интеграция с Jira](#интеграция-с-jira)
 - [Уведомление в Telegram](#уведомление-в-telegram)
 
+---
 
 ## **Технологии и инструменты:**
 
@@ -83,4 +85,4 @@ https://github.com/user-attachments/assets/cc4d25b8-a932-41a3-aa17-5328233a6082
 
 ## **Уведомление в Telegram:**
 
-![TelegramBot.png](media/screenshots/TelegramBot.png)
+<img width="50%" title="TelegramBot" src="media/screenshots/TelegramBot.png">

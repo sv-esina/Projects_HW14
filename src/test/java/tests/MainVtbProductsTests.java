@@ -3,12 +3,20 @@ package tests;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import pages.CreditCardsPage;
+import pages.DebitCardsPage;
 import pages.MainVtbBankWebPage;
+import pages.SavingsPage;
+
 
 @DisplayName("Проверяем работу кнопок продуктов на главной странице ВТБ")
 
 public class MainVtbProductsTests extends TestBase {
     MainVtbBankWebPage mainVtbBankWebPage = new MainVtbBankWebPage();
+    DebitCardsPage debitCardsPage = new DebitCardsPage();
+    CreditCardsPage creditCardsPage = new CreditCardsPage();
+    SavingsPage savingsPage = new SavingsPage();
+
 
     @Test
     @DisplayName("Проверяем работу кнопки Дебетовые карты")
@@ -18,8 +26,9 @@ public class MainVtbProductsTests extends TestBase {
                     .openMainPage()
                     .scroll()
                     .removeCookiesBox()
-                    .clickDebitCardsButton("Дебетовые карты")
-                    .checkResult("Дебетовые карты");
+                    .clickDebitCardsButton("Дебетовые карты");
+
+            debitCardsPage.checkResult("Дебетовые карты");
 
     }
 
@@ -31,8 +40,9 @@ public class MainVtbProductsTests extends TestBase {
                     .openMainPage()
                     .scroll()
                     .removeCookiesBox()
-                    .clickCreditCardsButton("Кредитные карты")
-                    .checkResult("Получить кредитную карту просто ");
+                    .clickCreditCardsButton("Кредитные карты");
+
+            creditCardsPage.checkResult("Получить кредитную карту просто ");
 
     }
 
@@ -44,8 +54,9 @@ public class MainVtbProductsTests extends TestBase {
                     .openMainPage()
                     .scroll()
                     .removeCookiesBox()
-                    .clickSavingsButton("Сбережения")
-                    .checkResult("Подберите вклад или накопительный счет ");
+                    .clickSavingsButton("Сбережения");
+
+            savingsPage.checkResult("Подберите вклад или накопительный счет ");
 
     }
 

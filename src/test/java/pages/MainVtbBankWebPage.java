@@ -49,11 +49,6 @@ public class MainVtbBankWebPage {
         return this;
     }
 
-    @Step("Проверяем открывшуюся страницу")
-    public MainVtbBankWebPage checkResult(String value){
-        checkResult.shouldHave(text(value));
-        return this;
-    }
 
     @Step("Скролл страницы до блока Частным лицам")
     public MainVtbBankWebPage scroll() {

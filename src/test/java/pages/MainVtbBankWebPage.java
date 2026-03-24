@@ -13,7 +13,6 @@ public class MainVtbBankWebPage {
 
     private final SelenideElement
 
-                    checkResult=$(".typographystyles__Box-foundation-kit__sc-14qzghz-0.jXDzyw"),
                     scroll = $("#pb"),
                     cookiesBox = $("#cookies-box"),
                     closeCookiesBox = $("#cookie-buttons");
